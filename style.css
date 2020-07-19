@@ -1,14 +1,17 @@
 #google-logo {
       margin-top: 18vh;
       /* transform: scale(1.05); */
-      margin-left: 38.75vw; 
+      margin-left: 39.3vw; 
       padding-bottom: 25px;
 }
 
 #header {
     width: 100vw; 
     color: #000;
+    opacity: .8; 
     margin-top: 17px; 
+    padding-left: 11px; 
+    padding-bottom: 2px; 
 }
 
 #grid {
@@ -20,13 +23,11 @@
 
 #leftside {
     text-align: left;
-    
     display: inline-block; 
 }
 
 #rightside {
     text-align: center;
-    
     display: inline-block; 
     margin-left: 915px;
 }
@@ -52,7 +53,7 @@
     border-radius: 24px;
     width: 582px;
     margin-left: 25.5em;
-    height: 44px; 
+    height: 42px; 
     border: 1px solid #dfe1e5;
 }
 
@@ -61,7 +62,7 @@
     border-radius: 4px;
     height: 36px; 
     border: 1px solid #f2f2f2;
-    margin: 28px 3px;
+    margin: 28px 4px;
     font-size: 14px; 
     padding-left: 16px;
     padding-right: 16px;
@@ -81,5 +82,66 @@
 }
 
 footer {
+width: 100vw; 
+background-color: #f2f2f2;
+position: fixed;
+bottom: 0; 
+height: 45px; 
+left: -8px; 
+}
 
+footer * {
+    display: inline-block; 
+    
+}
+
+#leftfoot a {
+    text-align: left;
+    color: #000;
+    opacity: 75%;
+    font-size: 14px;
+    padding-left: 15px;
+    text-decoration-line: none; 
+    font-family: arial, sans-serif;
+    padding-top: 5%; 
+}
+
+#rightfoot {
+    margin-left: 740px; 
+}
+
+#leftfoot {
+    margin-left: 25px; 
+}
+
+#rightfoot a {
+    justify-content: right;
+    text-align: right;
+    color: #000;
+    opacity: 75%;
+    font-size: 14px;
+    padding-right: 15px;
+    text-decoration-line: none; 
+    font-family: arial, sans-serif;
+    padding-top: 5%; 
+}
+
+#iconcredit * {
+    font-size: 8px;
+    text-align: center;
+}
+
+#MG {
+    transform: scale(.011);
+    position: absolute;
+    bottom: -455px; 
+    right: 265px; 
+    opacity: 50%; 
+}
+
+#MC {
+    transform: scale(.04);
+    position: absolute;
+    right: 115px; 
+    bottom: 66px; 
 }
